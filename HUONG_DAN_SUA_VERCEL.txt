@@ -1,0 +1,13 @@
+KHAC PHUC LOI VERCEL npm ci / EUSAGE
+
+Nguyen nhan: package-lock.json khong dong bo voi package.json, thieu cac goi phu thuoc tuy chon cua Tailwind.
+
+Da sua vercel.json: installCommand = npm install --no-audit --no-fund.
+Len GitHub: tai TOAN BO noi dung thu muc nay (khong tai file ZIP nguyen khoi).
+Tren Vercel: Project Settings > Build and Deployment > Install Command:
+  npm install --no-audit --no-fund
+Build Command: npm run build
+Output Directory: dist
+Sau do Redeploy. Neu Vercel co tuy chon cache, chon redeploy khong dung build cache.
+
+Luu y: Ban sua nay khac phuc loi cai thu vien da thay trong anh. Chua xac nhan build production vi moi truong kiem tra khong tai duoc du cac npm packages.
