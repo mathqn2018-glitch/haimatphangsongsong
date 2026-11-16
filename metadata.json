@@ -1,0 +1,6 @@
+{
+  "name": "Khám phá Hình chóp 3D",
+  "description": "Ứng dụng học tập hình học không gian 3D & AR cho tiết Toán 11: mô hình hình chóp S.ABCD đáy hình bình hành với trung điểm M, N, P và nét thấy/khuất động theo góc nhìn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
